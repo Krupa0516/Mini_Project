@@ -1,0 +1,31 @@
+#main{
+    background: linear-gradient(to bottom, #bd8400 0%, #f1a06b 100%);
+    font-weight: bold;
+}
+/* Style for the parent div */
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  /* Style for the child divs */
+  .col {
+    flex: 0 0 calc(50% - 10px); /* each column takes 50% of the parent's width with a 10px gutter */
+    margin-bottom: 20px;
+
+  }
+  /* Style for the card body */
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Style for the card title */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  img{
+    width: 250px;
+    height: 200px;
+  }
